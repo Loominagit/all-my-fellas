@@ -1,0 +1,19 @@
+[package]
+name = "loominatrx/all-my-fellas"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+# Framework
+Knit = "sleitnick/knit@1.6.0"
+
+# Debugging purpose
+Iris = "michael-48/iris@2.1.4"
+
+# Utils
+Trove = "sleitnick/trove@1.1.0"
+Signal = "sleitnick/signal@2.0.1"
+Promise = "evaera/promise@4.0.0"
+Flipper = "reselim/flipper@2.0.0"
+TableUtil = "sleitnick/table-util@1.2.1"

@@ -1,0 +1,80 @@
+{
+  "name": "all-my-fellas",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/shared",
+
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "$properties": {
+        "CharacterJumpHeight": 0,
+        "CharacterJumpPower": 0,
+        "CharacterWalkSpeed": 0,
+
+        "DevComputerCameraMovementMode": "Classic",
+        "DevComputerMovementMode": "Scriptable",
+
+        "DevTouchCameraMovementMode": "Classic",
+        "DevTouchMovementMode": "Scriptable",
+
+        "NameDisplayDistance": 0
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "Players":{
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Compatibility"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      },
+      "Music": {
+        "$className": "Sound",
+        "$properties": {
+          "PlaybackSpeed": 2,
+          "SoundId": "rbxassetid://15567512554"
+        }
+      },
+      "Metronome": {
+        "$className": "Sound",
+        "$properties": {
+          "SoundId": "rbxassetid://7486469273"
+        }
+      }
+    }
+  }
+}
